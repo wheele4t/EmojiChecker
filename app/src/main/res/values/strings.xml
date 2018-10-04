@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Emoji Checker</string>
+    <string name="title_activity_home_screen">homeScreen</string>
+    <string name="title_activity_log_in">logIn</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".logIn"
+    >
+
+    <ImageView
+        android:layout_width="324dp"
+        android:layout_height="261dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="261dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="Username"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="212dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:text="Password"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="@color/green"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+</RelativeLayout>
